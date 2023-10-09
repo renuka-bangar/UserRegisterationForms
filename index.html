@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>REGISTERATION FORM</title>
+    <link rel="icon" href="logo.jpeg">
+</head>
+<body>
+    <form action="MESSAGE.HTML">
+    <fieldset>
+      <legend>PERSONAL DETAILS</legend>
+      <label for="name">FIRST NAME</label>
+      <input type="text" name="name" id="name" placeholder="Enter your First name" required>
+      <br>
+      <br>
+      <label for="name">LAST NAME</label>
+      <input type="text" name="lname" id="name" placeholder="Enter your Last Name" required>
+      <BR></BR>
+      <label for="number">CONTACT NUMBER</label>  
+      <input type="tel" name="number" id="number" pattern="[6-9]{1}[0-9]{9}" required placeholder="Enter your number ">
+      <BR></BR>
+      <label for="mail">EMAIL</label>
+      <input type="email" name="email" id="mail" required placeholder="Enter your mail address"> 
+      <BR></BR>
+      <label for="pass">PASSWORD</label>
+      <input type="password" name="password" id="pass" required placeholder="Enter your password">
+      <BR></BR>  
+      <label for="pass"> CONFIRM PASSWORD</label>
+      <input type="password" name="password" id="pass" required placeholder="Confirm your password">
+      <BR></BR> 
+      <label for="dob">Date of Birth</label> 
+      <input type="date" name="dob" id="dob" required>
+      <BR></BR>
+      <label for="gender">GENDER</label>
+      <input type="radio" name="gender" id="gender" value="m"> MALE 
+      <input type="radio" name="gender" id="gender" value="f"> FEMALE 
+      <input type="radio" name="gender" id="gender" value="c"> CUSTOM
+      <BR></BR>   
+
+      <label for="pic">PICTURE</label>
+      <input type="file" name="picture" id="pic" required>
+      <BR></BR>
+      <label for="country">COUNTRY</label>
+      <select name="country"> 
+			
+        <option value="INDIA">INDIA</option>
+        <option value="USA">USA</option>
+        <option value="CHINA">CHINA</option>
+        <option value="USA">UK</option>	
+       </select>
+
+    
+    </fieldset>
+    <fieldset>
+     <legend>EDUCATIONAL DETAILS</legend>
+     <label for="rad">DEPARTMENT</label>
+     
+     <BR></BR>
+     <input type="radio" name="radio" id="rad">CSE
+     <input type="radio" name="radio" id="rad">ECE
+     <input type="radio" name="radio" id="rad">IS
+     <input type="radio" name="radio" id="rad">CIVIL
+     <input type="radio" name="radio" id="rad">ME
+     <BR></BR>
+     <label for="yog">GRADUATION YEAR</label>
+     <input list="yog" name="yop" id="yop">
+     <datalist id="yog">
+        <option >2018</option>
+        <option >2019</option>
+        <option >2020</option>
+        <option >2021</option>
+        <option >2022</option>
+        <option >2023</option>
+
+    </datalist>
+    <BR></BR>
+    <label for="sk">SKILLS</label>
+    
+    <INPut type="checkbox" id="sk">HTML
+    <INPut type="checkbox" id="sk">CSS
+    <INPut type="checkbox" id="sk">JAVA SCRIPT
+ 
+    </fieldset>
+    <BR></BR>
+    <INPut type="submit" value="submit">
+</form>
+
+
+
+
+    
+</body>
+</html>
